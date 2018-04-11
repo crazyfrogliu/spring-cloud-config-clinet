@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://0.0.0.0:8888
+      name: config-client
+      profile: dev
+      label: test
